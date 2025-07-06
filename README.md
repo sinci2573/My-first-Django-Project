@@ -15,41 +15,31 @@ Welcome to **MyFirstProject**, a simple Django web app where users can fill out 
 ## How to Run Locally
 
 ### 1. Clone this repo
-```bash
 git clone https://github.com/your-username/MyFirstProject.git
 cd MyFirstProject
-2. Create and activate a virtual environment (Optional but recommended)
-bash
-Copy
-Edit
+
+### 2. Create and activate a virtual environment (Optional but recommended)
 python -m venv venv
 source venv/Scripts/activate
-3. Install Django
-bash
-Copy
-Edit
+
+### 3. Install Django
 pip install django
-4. Run the development server
-bash
-Copy
-Edit
+
+### 4. Run the development server
 python manage.py runserver
-5. Open the app in your browser
+
+### 5. Open the app in your browser
 Go to: http://127.0.0.1:8000/
 
-How to Push Your Code to GitHub (Optional)
+How to Push Your Code to GitHub
 If you made changes and want to push them to GitHub:
 
-bash
-Copy
-Edit
 git add .
 git commit -m "Describe your changes here"
 git push
+
 📁 Project Structure
-bash
-Copy
-Edit
+
 MyFirstProject/
 ├── MyFirstProject/    # Django project settings
 ├── formsapp/          # Your Django app
@@ -58,19 +48,12 @@ MyFirstProject/
 │   │   └── success.html
 ├── manage.py
 └── venv/              # Your virtual environment (not pushed to GitHub)
+
 Future Ideas
 Save survey responses to a database.
 
 Add more creative survey questions.
 
 Style the form using Bootstrap or Tailwind CSS.
-
-Made with using Django.
-
-python
-Copy
-Edit
-
 ---
 
-Let me know when you're done — I can help you format your GitHub repo's description
